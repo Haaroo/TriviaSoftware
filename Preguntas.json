@@ -1,0 +1,101 @@
+[
+    {
+        "categoria": "Ingenieria de software",
+        "pregunta": "¿Que son los requerimientos del sistema?",
+        "respuesta": "Descripciones de lo que el sistema debe hacer: el servicio que ofrece y las restricciones en su operación.",
+        "incorrecto1": "Identifican el hardware del sistema y como manejarlo",
+        "incorrecto2": "Se encarga de almacenar la informacion del sistema",
+        "incorrecto3": "Es la comunicacion afectiva que tienes ante el cliente",
+        "imagen": "img_preguntas/img1.jpg"
+    },
+
+    {   
+        "categoria": "Ingeniria de software",
+        "pregunta": "¿Qué es la ETNOGRAFIA?",
+        "respuesta": "Técnica de observación que se puede utilizar para entender los requerimientos sociales y organizacionales.",
+        "incorrecto1": "Técnica que se basa en escenarios para la obtención de requerimientos.",
+        "incorrecto2": "Tecnica de escritura",
+        "incorrecto3": "Tecnica de desarrollo criptografico",
+        "imagen": "img_preguntas/img2.jpg"
+    },
+
+    {   
+        "categoria": "Ingenieria de software",
+        "pregunta": "¿Qué son los requerimientos funcionales?",
+        "respuesta": "Son enunciados acerca de servicios que el sistema debe proveer, de cómo debería reaccionar el sistema a entradas particulares.",
+        "incorrecto1": "Son limitaciones sobre servicios o funciones que ofrece el sistema. Incluyen restricciones tanto de temporización.",
+        "incorrecto2": "Son funciones que actuan dentro de la base de datos",
+        "incorrecto3": "Es lo que nos permite modificar los prototipos propuestos por el cliente",
+        "imagen": "img_preguntas/img3.jpg"
+    },
+
+    {   
+        "categoria": "Ingenieria de software",
+        "pregunta": "¿Que es el diagrama de casos de usos?",
+        "respuesta": "Es una tecnica que se basa en escenarios para la obtencion de requerimientos.",
+        "incorrecto1": "Es una tecnica aplicada a un grupo de usuario representativos.",
+        "incorrecto2": "Tecnica que consiste en estudiar los documentos que existen.",
+        "incorrecto3": "Es el proceso de interactuar con los participantes del sistema para descubrir los datos del software",
+        "imagen": "img_preguntas/img4.jpg"
+    },
+
+    {   
+        "categoria": "Ingenieria de software",
+        "pregunta": "Las decisiones de diseño arquitectonico incluyen decisiones sobre...",
+        "respuesta": "Todas son correctas",
+        "incorrecto1": "La distribucion del sistema",
+        "incorrecto2": "Los estilos arquitectonicos a usar",
+        "incorrecto3": "La forma en que la arquitectura debe documentarse y evaluarse",
+        "imagen": "img_preguntas/img5.jpg"
+    },
+
+    {   
+        "categoria": "Ingenieria de software",
+        "pregunta": "El patron arquitectonico ____________ ha demostrado ser un modelo muy maduro y con gran validez a lo largo de los años",
+        "respuesta": "Arquitectura MVC",
+        "incorrecto1": "Arquitectura cliente-servidor",
+        "incorrecto2": "Arquitectura en capas",
+        "incorrecto3": "Arquitectura de repositorios",
+        "imagen": "img_preguntas/img6.jpg"
+    },
+
+    {   
+        "categoria": "Ingenieria de software",
+        "pregunta": "Indican la organizacion y arquitectura de un sistema",
+        "respuesta": "Modelos estructurales",
+        "incorrecto1": "Modelos de contexto",
+        "incorrecto2": "Modelos del comportamiento",
+        "incorrecto3": "Modelos del servicio",
+        "imagen": "img_preguntas/img7.jpg"
+    },
+
+    {   
+        "categoria": "Ingenieria de software",
+        "pregunta": "Describe los tipos de objeto de un sistema y los distintos tipos de relaciones que pueden existir entre ellos",
+        "respuesta": "Diagrama de clases",
+        "incorrecto1": "Diagrama de componentes",
+        "incorrecto2": "Diagrama de despliegue",
+        "incorrecto3": "Diagrama de objetos",
+        "imagen": "img_preguntas/img8.jpg"
+    },
+
+    {   
+        "categoria": "Ingenieria de software",
+        "pregunta": "Son una forma adecuada para describir la arquitectura del sistema durante el proceso de diseño",
+        "respuesta": "Diagrama de bloques",
+        "incorrecto1": "Diagrama de componentes",
+        "incorrecto2": "Diagrama de flujo de datos",
+        "incorrecto3": "Diagrama de estados",
+        "imagen": "img_preguntas/img9.png"
+    },
+
+    {   
+        "categoria": "Ingenieria de software",
+        "pregunta": "La ingenieria dirigida por modelo es un enfoque al desarrollo de software donde un sistema se representa como un conjunto de modelos que...",
+        "respuesta": "Pueden transformarse automaticamente a codigo ejecutable",
+        "incorrecto1": "Documentar un sistema existente",
+        "incorrecto2": "Facilita la discusion sobre un sistema existente o propuesto",
+        "incorrecto3": "Realizar diagnostico del sistema",
+        "imagen": "img_preguntas/img10.jpg"
+    }
+]

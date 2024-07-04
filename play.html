@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web Site</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.8/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">eHaro</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="play.html">PLAY</a></li>
+                    <li><a href="#">INFO</a></li>
+                    <li><a href="contac.html">CONTACT</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+            
+            <!--TRIVIA -->
+            <style>
+
+                *{
+                    transition: all 0.3s;
+                }
+
+                .contenedor{
+                    width: 50vw;
+                    height: 50vh;
+                    display: inline-flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding-left: -50px;
+                    padding-top: 140px;
+        
+                }
+
+                body {
+                    background: linear-gradient(90deg, rgb(20, 147, 156) 0%, rgb(22, 35, 207) 100%);
+                    padding: 0;
+                    margin: 0;
+                    text-align: center;
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: 90%;
+                }
+
+                .encabezado{
+                    position: relative;
+                    background: rgb(219, 201, 202);
+                    min-width: 10px;
+                    width: 70%;
+                    padding: 5%;
+                    border-radius:10px 5px 50px 5px;
+                }
+
+                .categoria{
+                    opacity: 0.5;
+                    text-align: left;
+                }
+
+                .preg{
+                    padding: 10px;
+                }
+
+                .btn_trivia{
+                    background: white;
+                    width: 60%;
+                    max-width: 550px;
+                    padding: 10px;
+                    margin: 5px;
+                    cursor: pointer;
+                    border-radius: 2em;
+                }
+
+                .btn_trivia:hover{
+                    background:  rgb(0, 68, 255);
+                    transform: scale(1.05);
+                    cursor: pointer;
+                    border-radius: 2em;
+                }
+
+                .imagen {
+                object-fit: cover;
+                height: 200px;
+                width: 100%;
+                }
+                
+                .numero{
+                position: absolute;
+                opacity:1;
+                color: green;
+                top: 10px;
+                right: 10px;
+                }
+
+                .puntaje{
+                padding:10px;
+                color:white;
+                }
+            </style>
+
+            <div class="contenedor">
+                <div class="puntaje" id="puntaje"></div>
+                <div class="encabezado">
+                    <div class="categoria" id="categoria">
+                        Categoria
+                    </div>
+                    <div class="numero" id="numero"></div>
+                    <div class="pregunta" id="pregunta">
+                        Pregunta
+                    </div> 
+                    <img src="#" class="imagen" id="imagen">
+                </div>
+                <div class="btn_trivia" id="btn1" onclick="oprimir_btn(0)">Opcion 1</div>
+                <div class="btn_trivia" id="btn2" onclick="oprimir_btn(1)">Opcion 2</div>
+                <div class="btn_trivia" id="btn3" onclick="oprimir_btn(2)">Opcion 3</div>
+                <div class="btn_trivia" id="btn4" onclick="oprimir_btn(3)">Opcion 4</div>
+
+                <script src="index.js"></script>
+            </div>
+
+        </div> 
+    </div>
+</body>
+</html>
